@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Final Exam</title>
+        <link rel="stylesheet" href="assets/css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+    </head>
+    <body>
+        <form id="search">
+            <input list="crypto" id="crypto-search" placeholder="ETH">
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        <div id="crypto-info" hidden>
+            <p id="full-name"></p>
+            <p id="current-price"></p>
+            <p id="high"></p>
+            <button id="price-history">Show price history</button>
+        </div>
+        <div class="container" hidden>
+            <canvas id="chart"></canvas>
+        </div>
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>

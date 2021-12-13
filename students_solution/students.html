@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Student Roster</title>
+	<link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+	<form action="#" method="" id="theForm" novalidate>
+		<fieldset>
+			<legend>Enter a student name to add to the roster</legend>
+			<div><label for="student">Student First Name</label><input type="text" name="firstName" id="firstName" required></div>
+			<div><label for="student">Student Last Name</label><input type="text" name="lastName" id="lastName" required></div>
+			<div><label for="student">Student Email</label><input type="email" name="email" id="email" required></div>
+			<input type="submit" value="Add to Roster" id="submit">
+			<div id="output"></div>
+		</fieldset>
+	</form>
+	<script src="js/students.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.tree-div {
+    padding-top: 2px;
+    text-align: center;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+#tree {
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
